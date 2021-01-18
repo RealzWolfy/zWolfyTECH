@@ -17,8 +17,6 @@
             var temp = new wave(colours[i], 1, nodes);
         }
 
-        // console.log(window.getComputedStyle(document.querySelector("body"),null).getPropertyValue("background-color").replace(/[^\d,]/g,'').split(',').map(function(i){return parseInt(i).toString(16)}));
-
         update();
     }
 
@@ -53,9 +51,7 @@
         for (var i = 0; i <= nodes + 2; i++) {
             var temp = [(i - 1) * cvs.width / nodes, 0, Math.random() * 200, .3];
             this.nodes.push(temp);
-            console.log(temp);
         }
-        console.log(this.nodes);
         waves.push(this);
     }
 
