@@ -1,6 +1,6 @@
 html {
     font-family: "Work Sans", sans-serif;
-    color: #333;
+    color: rgb(255, 255, 255);
     font-size: 18px;
     line-height: 1.5;
     font-weight: 300;
@@ -24,11 +24,11 @@ body {
 
 .header {
     background-color: #141414;
-    color: rgb(182, 182, 182);
+    color: rgb(255, 255, 255);
 }
 
 .content {
-    color: #b9b9b9;
+    color: rgb(255, 255, 255);
 }
 
 h1 {
